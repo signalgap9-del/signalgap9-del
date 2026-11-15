@@ -1,38 +1,38 @@
-# Yunseop Im — Software Engineer
+# Yunseop Im
 
-**Backend & AI Systems Engineer · PLM / Engineering Data · GraphRAG · LLM Serving · Full-Stack (TypeScript · React)**
+**Software engineer — backend, frontend, and applied AI systems.**
 
-*Open to work — Netherlands · Remote · EU timezone friendly*
+I build products end to end: **TypeScript/React** frontends, **Node/Python** backends, and **LLM-powered features** — agents, multimodal pipelines, retrieval (RAG/GraphRAG), and on-prem model serving.
+
+*Open to work — remote / Netherlands-based.*
 
 ---
 
-## About
+## What I've built
 
-I build the **data layer under engineering products** — product structures, change control, and the retrieval layer that makes AI useful on top of them. Most "AI features" fail because nobody modeled the structure first; that's the layer I own.
-
-I work end-to-end: from **Python** data pipelines and **FastAPI** services, through **PostgreSQL**/graph projections, to **TypeScript · React** product surfaces — and the **LLM serving** that sits on top.
-
-## What I actually build
-
-| Area | Stack | What it does |
+| Project | Stack | What it does |
 |---|---|---|
-| **PLM / product-structure systems** | Python · SQLite/PostgreSQL · STEP · BRL-CAD | Item/master/revision/effectivity modeling, BOM traversal, ECO change workflows, where-used impact analysis — validated on real military CAD datasets (M35 truck, Mi-28) |
-| **GraphRAG retrieval** | Python · LLM APIs · vector/graph stores | Retrieval-augmented generation over engineering & product data |
-| **LLM serving** | On-prem model serving · GPU | Domain-model inference under real deployment constraints |
-| **SaaS products** | TypeScript · React · Node | Multi-tenant web products (LivePair — interview/AI tooling) |
-| **CAD/STEP interoperability** | ISO 10303 (AP203/AP214) · open-source PLM (DocDokuPLM, openPLM) | Engineering-file → canonical data-model adapters |
+| **LivePair SaaS** | TypeScript · React · Node · Gemini/OpenAI APIs | Multi-tenant AI interview platform — real-time A/V analysis, per-user knowledge stores (RAG), sales-assist agents |
+| **Interview tooling suite** | Python · FastAPI · web UIs | Interview-prep automation, job-application pipelines, LinkedIn tooling |
+| **Engineering-data / PLM system** | Python · SQLite/PostgreSQL · STEP · BRL-CAD | Product-structure modeling, change workflows, geometry validation — validated on real CAD datasets |
+| **GraphRAG / LLM serving** | Python · LLM APIs · GPU | Retrieval + inference pipelines for domain workloads |
+| **Freight / logistics analytics** | Python · data pipelines | Maritime freight & supply-chain analysis tools |
+
+## Stack
+
+**Languages:** Python · TypeScript · JavaScript · SQL
+**Frontend:** React · modern web UI
+**Backend:** Node.js · FastAPI · REST APIs · WebSockets
+**AI/ML:** LLM APIs (Gemini, OpenAI) · agents · multimodal pipelines · RAG/GraphRAG · embeddings
+**Data:** PostgreSQL · SQLite · graph projections · document/vector stores
+**Infra:** Docker · Linux · CI/CD · on-prem GPU serving
 
 ## How I work
 
-- **Verify before claiming** — every number in my docs comes from an executed run, not a guess
-- **Read the implementations first** — DocDokuPLM, openPLM, STEPcode before inventing my own model
-- **Domain-first** — I load real engineering data and prove the structure, not toy demos
-
-## Looking for
-
-Backend / platform / AI-systems roles — especially where **data modeling, engineering software, or LLM infrastructure** matters. Netherlands/EU market, remote OK.
+- Ship working software, not demos — every claim in my docs comes from an executed run
+- Read real implementations before building (open-source PLM, STEP parsers, agent frameworks)
+- Care about the boring parts: data modeling, migrations, auth, tenancy, observability
 
 ## Links
 
-- LinkedIn: <!-- TODO: add linkedin.com/in/handle -->
-- Email: via LinkedIn
+- LinkedIn · Email — see profile sidebar
