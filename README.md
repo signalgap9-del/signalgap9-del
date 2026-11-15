@@ -1,12 +1,19 @@
 # Yunseop Im
 
-**Software engineer — backend, frontend, and applied AI systems.**
-
-I build products end to end: **TypeScript/React** frontends, **Node/Python** backends, and **LLM-powered features** — agents, multimodal pipelines, retrieval (RAG/GraphRAG), and on-prem model serving.
+**M.S. Computer Science — Georgia Tech**
+Software engineer building backend systems, AI agents, and multimodal pipelines — TypeScript/React frontends, Python/Node backends, LLM-powered products.
 
 *Open to work — remote / Netherlands-based.*
 
 ---
+
+## About
+
+Full-stack + applied-AI engineer. I ship working products end to end — **React/TypeScript** interfaces, **Node.js/FastAPI** services, **PostgreSQL** data layers, and **LLM features**: agents, multimodal pipelines, RAG/GraphRAG retrieval, on-prem model serving.
+
+## Education
+
+**Georgia Tech — M.S. Computer Science (MSCS)**
 
 ## What I've built
 
