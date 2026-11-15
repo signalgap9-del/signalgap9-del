@@ -1,6 +1,6 @@
 # Yunseop Im
 
-**M.S. Computer Science — Georgia Tech**
+**M.S. Computer Science — Georgia Tech (Atlanta, GA)**
 Software engineer building backend systems, AI agents, and multimodal pipelines — TypeScript/React frontends, Python/Node backends, LLM-powered products.
 
 *Open to work — remote / Netherlands-based.*
@@ -13,7 +13,7 @@ Full-stack + applied-AI engineer. I ship working products end to end — **React
 
 ## Education
 
-**Georgia Tech — M.S. Computer Science (MSCS)**
+**Georgia Tech (Atlanta, GA) — M.S. Computer Science**
 
 ## What I've built
 
