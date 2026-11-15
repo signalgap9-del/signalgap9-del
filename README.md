@@ -1,35 +1,38 @@
-# Yunseop Im
+# Yunseop Im — Software Engineer
 
-**Engineer building PLM / engineering-data systems — graph DB + ontology + LLM serving, end to end.**
+**Backend & AI Systems Engineer · PLM / Engineering Data · GraphRAG · LLM Serving · Full-Stack (TypeScript · React)**
 
-*Open to work — Netherlands-based, remote OK.*
+*Open to work — Netherlands · Remote · EU timezone friendly*
 
 ---
 
-## What I work on
+## About
 
-I design and validate the **data layer underneath engineering products** — the part where most "AI features" fail because nobody got the structure right.
+I build the **data layer under engineering products** — product structures, change control, and the retrieval layer that makes AI useful on top of them. Most "AI features" fail because nobody modeled the structure first; that's the layer I own.
 
-- **PLM / product-structure modeling** — item/master/revision/effectivity, BOM traversal, change workflows (ECO), where-used impact analysis
-- **Graph databases & ontologies** — turning real CAD/engineering files (BRL-CAD, STEP) into queryable product structure with verified correctness
-- **LLM + GraphRAG serving** — retrieval over engineering data, on-prem deployment constraints
-- **Domain-first validation** — I don't ship toy demos; I load real military CAD datasets and prove the numbers add up
+I work end-to-end: from **Python** data pipelines and **FastAPI** services, through **PostgreSQL**/graph projections, to **TypeScript · React** product surfaces — and the **LLM serving** that sits on top.
 
-## Selected work
+## What I actually build
 
-| Project | What it is |
-|---|---|
-| **PLM engineering-data system** | Full pipeline: `.asc` / STEP adapters → orthodox schema (DocDokuPLM/openPLM-aligned) → graph + change engine → ECO workflows, geometry gates, serial effectivity — validated on real BRL-CAD M35 truck & Mi-28 data |
-| **GraphRAG pipeline** | Retrieval-augmented generation over engineering/product data |
-| **LLM serving stack** | On-prem model serving for domain workloads |
+| Area | Stack | What it does |
+|---|---|---|
+| **PLM / product-structure systems** | Python · SQLite/PostgreSQL · STEP · BRL-CAD | Item/master/revision/effectivity modeling, BOM traversal, ECO change workflows, where-used impact analysis — validated on real military CAD datasets (M35 truck, Mi-28) |
+| **GraphRAG retrieval** | Python · LLM APIs · vector/graph stores | Retrieval-augmented generation over engineering & product data |
+| **LLM serving** | On-prem model serving · GPU | Domain-model inference under real deployment constraints |
+| **SaaS products** | TypeScript · React · Node | Multi-tenant web products (LivePair — interview/AI tooling) |
+| **CAD/STEP interoperability** | ISO 10303 (AP203/AP214) · open-source PLM (DocDokuPLM, openPLM) | Engineering-file → canonical data-model adapters |
 
 ## How I work
 
-- Verify before claiming: every number in my docs comes from a run, not a guess
-- Read the open-source implementations (DocDokuPLM, openPLM, STEPcode) before inventing my own model
-- Dutch/English working proficiency — EU market focused
+- **Verify before claiming** — every number in my docs comes from an executed run, not a guess
+- **Read the implementations first** — DocDokuPLM, openPLM, STEPcode before inventing my own model
+- **Domain-first** — I load real engineering data and prove the structure, not toy demos
 
-## Contact
+## Looking for
 
-- LinkedIn: <!-- TODO: add linkedin.com/in/yourhandle -->
-- Email: via LinkedIn DM
+Backend / platform / AI-systems roles — especially where **data modeling, engineering software, or LLM infrastructure** matters. Netherlands/EU market, remote OK.
+
+## Links
+
+- LinkedIn: <!-- TODO: add linkedin.com/in/handle -->
+- Email: via LinkedIn
