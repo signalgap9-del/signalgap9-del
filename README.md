@@ -1,39 +1,22 @@
 # Yunseop Im
 
-**Full-Stack Software Engineer — AI Engineering**
-M.S. Computer Science, Georgia Tech (Atlanta, GA) — AI specialization.
+**Software Engineer — full-stack systems & applied AI**
 
-*Open to relocate — EU / US. Remote OK.*
+I build backend services, frontend interfaces, and the AI/ML layers in between — in production, not demos.
 
----
+**Currently:** backend + AI layer of a PLM platform for manufacturing — engineering data models, retrieval over technical documents, and LLM serving on customer GPUs with no external API dependency.
 
-## About
+**Previously:** contract AI products for an e-commerce company; solo founder of a live SaaS handling billing, payments, and real-time multimodal sessions. Merged pull requests in NVIDIA's open-source NVSentinel.
 
-Full-stack software engineer with 3 years building production systems — backend services, frontend interfaces, and applied-AI products across industry and independent work.
-
-Current focus: **AI agents, retrieval (RAG/GraphRAG), multimodal pipelines, and LLM infrastructure** — including on-prem model serving where data can't leave the building.
+M.S. Computer Science, Georgia Tech — expected early 2027. B.S. Mechanical Engineering.
 
 ---
 
-## Projects
+## Selected work
 
-| Project | What it shows |
-|---|---|
-| **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** | GraphRAG experiments — hybrid BM25 + knowledge-graph retrieval, runnable Python demo with tests |
-| **[devin-harness](https://github.com/signalgap9-del/devin-harness)** | Open-source harness for running autonomous AI agents safely — lifecycle hooks, deterministic guards, typed review gates, dispatch contract. MIT |
-| **[FreightScaler](https://github.com/signalgap9-del/peachtree-dispatch)** | Full-stack SaaS — React/TypeScript frontend, AWS serverless backend (Lambda, DynamoDB, Kafka/CDC), route optimization (OR-Tools), multi-tenant quotas + idempotency |
-
----
-
-## Skills
-
-- **Languages:** Python · TypeScript · JavaScript · SQL · Java
-- **Backend:** FastAPI · Node.js · Spring Boot · gRPC · REST · WebSockets/SSE · PostgreSQL · Redis · Kafka
-- **Frontend:** React · TypeScript · Tailwind · TanStack Query · Zustand
-- **AI engineering:** LLM APIs (OpenAI, Gemini, multi-provider routing) · AI agents & tool-calling (LangChain, MCP) · RAG/GraphRAG · hybrid retrieval + reranking · vector DBs (Qdrant, pgvector) · knowledge graphs · multimodal pipelines · evals & observability (Ragas, Langfuse) · guardrails · on-prem LLM serving
-- **Infra:** Docker · Kubernetes · Terraform · AWS · GCP · Cloudflare Workers · CI/CD · OpenTelemetry · Prometheus · Sentry
-
----
+- **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** — GraphRAG pipeline in pure Python stdlib: BM25 + knowledge-graph expansion over SQLite, 8 tests, zero dependencies. Runnable demo.
+- **[devin-harness](https://github.com/signalgap9-del/devin-harness)** — open-source harness for running autonomous AI agents safely (MIT): hook lifecycle, deterministic exec/file guards, typed review gates, action ledger.
+- **[FreightScaler](https://github.com/signalgap9-del/peachtree-dispatch)** — multi-tenant freight risk intelligence SaaS: React/TypeScript frontend, AWS serverless backend (Lambda, DynamoDB, Kafka/CDC), OR-Tools route optimization, 24 ADRs.
 
 ## Writing
 
@@ -42,11 +25,13 @@ Current focus: **AI agents, retrieval (RAG/GraphRAG), multimodal pipelines, and 
 - [Per-tenant RAG isolation in multi-tenant AI SaaS](https://signalgap9-del.github.io/writing/tenant-rag.html)
 - [The production AI open-source stack worth adopting](https://signalgap9-del.github.io/writing/oss-stack.html)
 
----
+## Stack
+
+Python · TypeScript · Java · React · FastAPI · Node.js · Spring Boot · PostgreSQL · Qdrant · Docker · Kubernetes · AWS · GCP · Cloudflare
 
 ## Links
 
-- **Resume:** [signalgap9-del.github.io/resume.html](https://signalgap9-del.github.io/resume.html)
 - **Site:** [signalgap9-del.github.io](https://signalgap9-del.github.io)
+- **Resume:** [signalgap9-del.github.io/resume.html](https://signalgap9-del.github.io/resume.html)
 - **LinkedIn:** [linkedin.com/in/yunseop-i-207a7215a](https://www.linkedin.com/in/yunseop-i-207a7215a/)
-- **Email:** tristayunsub@gmail.com
+- **Email:** signalgap9@gmail.com
