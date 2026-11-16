@@ -17,7 +17,6 @@ I care about systems whose outputs can be checked: cited answers, verified retri
 
 | Project | What it shows |
 |---|---|
-| **[LivePair AI](https://livepairai.com)** — livepairai.com | Real-time multimodal AI assistant — live product. Screen + audio understanding, agent tool-use, per-tenant RAG isolation, MCP server. [Try it live](https://livepairai.com) |
 | **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** | GraphRAG experiments — hybrid sparse + knowledge-graph retrieval, runnable Python demo with tests |
 | **[devin-harness](https://github.com/signalgap9-del/devin-harness)** | Open-source harness for running autonomous AI agents safely — lifecycle hooks, deterministic guards, review gates. MIT |
 | **[FreightScaler](https://github.com/signalgap9-del/peachtree-dispatch)** | Full-stack SaaS — React/TypeScript frontend, AWS serverless backend, route optimization. [Architecture writeup](/writing/freightscaler.html) |
