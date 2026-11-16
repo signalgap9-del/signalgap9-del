@@ -9,7 +9,7 @@ M.S. Computer Science, Georgia Tech (Atlanta, GA) — AI specialization.
 
 ## About
 
-I build production software end to end — backend services, frontend interfaces, and applied-AI systems. Current focus: **AI agents, retrieval (RAG/GraphRAG), multimodal pipelines, and LLM infrastructure** — including on-prem model serving where data can't leave the building.
+Software engineer building production systems since 2023 — backend services, frontend interfaces, and applied-AI systems across industry and independent products. Current focus: **AI agents, retrieval (RAG/GraphRAG), multimodal pipelines, and LLM infrastructure** — including on-prem model serving where data can't leave the building.
 
 I care about systems whose outputs can be checked: cited answers, verified retrieval, evals, honest benchmarks — not demos.
 
