@@ -22,6 +22,7 @@ Open to contract and freelance work — EU/US.
 
 ## Writing
 
+- [GraphRAG for engineering data — why PLM documents break naive RAG](https://signalgap9-del.github.io/writing/graphrag-plm.html)
 - [Running LLM inference on customer GPUs — on-prem serving field notes](https://signalgap9-del.github.io/writing/onprem-llm.html)
 - [Running autonomous AI agents safely — devin-harness teardown](https://signalgap9-del.github.io/writing/agents.html)
 - [Building a real-time freight risk intelligence SaaS](https://signalgap9-del.github.io/writing/freightscaler.html)
