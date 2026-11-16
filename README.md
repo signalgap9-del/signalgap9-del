@@ -1,51 +1,39 @@
 # Yunseop Im
 
-**Full-Stack Software Engineer — AI Products**
-Currently building the AI layer of a PLM platform at **AinX** (Suwon, South Korea) — RAG/GraphRAG over 20,000+ engineering documents, LLM serving on customer GPUs. Previously shipped a real-time multimodal AI SaaS solo. M.S. Computer Science, Georgia Tech.
+**Full-Stack Software Engineer — AI Engineering**
+M.S. Computer Science, Georgia Tech (Atlanta, GA) — AI specialization.
 
 *Open to work — relocating to the Netherlands (Dutch Orientation Year visa, expected early 2027). Remote OK.*
 
 ---
 
-## What I do
+## About
 
-I build production AI systems end to end — React/TypeScript clients, FastAPI/Node/Spring Boot services, and the retrieval + inference layers in between. The through-line: **systems whose outputs can be checked** — cited answers, approval-gated changes, quantified risk, verified benchmarks.
+I build production software end to end — backend services, frontend interfaces, and applied-AI systems. Current focus: **AI agents, retrieval (RAG/GraphRAG), multimodal pipelines, and LLM infrastructure** — including on-prem model serving where data can't leave the building.
 
-## Currently — AinX · TechMentor (AI-native PLM)
+I care about systems whose outputs can be checked: cited answers, verified retrieval, honest benchmarks — not demos.
 
-- Backend modules for a PLM platform: drawings, documents, BOMs, MCAD/ECAD data on a revision model that keeps parts/CAD/drawings in sync and locks released data
-- Engineering change workflow (ECR→ECO→ECN): approval routing, BOM impact analysis, effectivity rules, ERP/MES release services with audit trail
-- **TechMentor AI layer**: hybrid sparse+dense retrieval (Qdrant), reciprocal rank fusion, cross-encoder reranking, knowledge-graph grounding (PostgreSQL + Apache AGE) — 20,000+ documents with citations to exact part + revision
-- **On-prem LLM serving**: SGLang + Gemma on customer GPUs — continuous batching, KV-cache tuning, guided decoding for cited output; engineering data never leaves the site
+## What I'm building
 
-## Independent products
-
-| Project | What it is |
+| Project | What it shows |
 |---|---|
-| **[LivePair AI](https://livepairai.com)** — livepairai.com | Real-time multimodal assistant on Cloudflare Workers — watches the screen + hears the call, surfaces help live. Split-agent loop (Gemini video windows + OpenAI Agents), per-tenant RAG isolation, 12-tool MCP server, OpenAPI 3.1, prepaid billing + x402 payments. Cut agent API cost $12 → $8/session-hour |
-| **[FreightScaler / AtmosPath](https://github.com/signalgap9-del/peachtree-dispatch)** | Freight risk-intelligence SaaS — React/TS + AWS serverless (Lambda, DynamoDB, CloudFront), OR-Tools VRP, NWS/NOAA hazard data, multi-tenant quotas + idempotency, 24 ADRs, live demo deployed. [Architecture writeup](/writing/freightscaler.html) |
-| **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** | Knowledge-graph-grounded retrieval experiments — hybrid BM25 + graph-expansion GraphRAG in pure Python stdlib, runnable demo with tests |
-| **[devin-harness](https://github.com/signalgap9-del/devin-harness)** | Open-source operating system for agentic repos — lifecycle hooks, deterministic exec/file guards, action ledger, typed LLM review gates, dispatch contract, skills library. MIT |
+| **[LivePair AI](https://livepairai.com)** — livepairai.com | Real-time multimodal AI assistant — live product. Screen + audio understanding, agent tool-use, per-tenant RAG isolation, MCP server. [Try it live](https://livepairai.com) |
+| **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** | GraphRAG experiments — hybrid sparse + knowledge-graph retrieval, runnable Python demo with tests |
+| **[devin-harness](https://github.com/signalgap9-del/devin-harness)** | Open-source harness for running autonomous AI agents safely — lifecycle hooks, deterministic guards, review gates. MIT |
+| **[FreightScaler](https://github.com/signalgap9-del/peachtree-dispatch)** | Full-stack SaaS — React/TypeScript frontend, AWS serverless backend, route optimization. [Architecture writeup](/writing/freightscaler.html) |
 
-## Background
+## Skills
 
-- **Georgia Tech** — M.S. Computer Science, AI specialization (GPA 3.22). ML, Software Architecture, Distributed Systems coursework
-- **E-commerce AI** (contract) — LangChain/OpenAI chatbot for 5,000 members; verification layer cut unsupported claims 25% → 10%
-- **Namu ICT** — Samsung 5G cloud network platform; diagnosed peak-hour dashboard slowdowns for Verizon/Telus/Orange
-- **Open source** — 2 merged PRs to [NVIDIA/NVSentinel](https://github.com/NVIDIA/NVSentinel) (GPU fleet health monitoring)
-
-## Stack
-
-**Languages:** Python · TypeScript · JavaScript · Java · C/C++ · SQL · Bash
-**Backend:** FastAPI · Spring Boot · gRPC · Temporal · REST · PostgreSQL · Redis · Kafka · Celery/Taskiq · Elasticsearch · Playwright
-**Frontend:** React · TanStack Query · Zustand · Tailwind · React Hook Form/Zod · WebSocket/SSE
-**AI/LLM:** RAG/GraphRAG · hybrid retrieval (dense+sparse, reranking) · Qdrant · pgvector · knowledge graphs (Apache AGE) · agent tool-calling (LangChain, MCP) · OpenAI/Gemini APIs · LiteLLM · Langfuse · PyTorch · SGLang (local serving) · Ragas evals
-**Cloud/Ops:** AWS (Lambda, DynamoDB, CloudFront) · GCP · Cloudflare Workers · Docker · Kubernetes · Terraform · GitHub Actions · OpenTelemetry · Prometheus · Sentry · on-prem GPU deployment
+**Languages:** Python · TypeScript · JavaScript · SQL
+**Backend:** FastAPI · Node.js · REST APIs · WebSockets · PostgreSQL
+**Frontend:** React · TypeScript · modern web UI
+**AI engineering:** LLM APIs (OpenAI, Gemini) · AI agents · RAG/GraphRAG · hybrid retrieval · embeddings · multimodal pipelines · MCP · on-prem LLM serving
+**Infra:** Docker · Linux · AWS · Cloudflare · CI/CD
 
 ## Writing
 
 - [Running autonomous AI agents safely — devin-harness teardown](/writing/agents.html)
-- [Building a real-time freight risk SaaS](/writing/freightscaler.html)
+- [Building a real-time freight risk intelligence SaaS](/writing/freightscaler.html)
 
 ## Links
 
