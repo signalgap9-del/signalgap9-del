@@ -10,6 +10,8 @@ I build backend services, frontend interfaces, and the AI/ML layers in between �
 
 M.S. Computer Science, Georgia Tech — expected early 2027. B.S. Mechanical Engineering.
 
+Open to contract and freelance work — EU/US.
+
 ---
 
 ## Selected work
