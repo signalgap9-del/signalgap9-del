@@ -1,45 +1,53 @@
 # Yunseop Im
 
-**M.S. Computer Science — Georgia Tech (Atlanta, GA)**
-Software engineer building backend systems, AI agents, and multimodal pipelines — TypeScript/React frontends, Python/Node backends, LLM-powered products.
+**Full-Stack Software Engineer — AI Products**
+Currently building the AI layer of a PLM platform at **AinX** (Suwon, South Korea) — RAG/GraphRAG over 20,000+ engineering documents, LLM serving on customer GPUs. Previously shipped a real-time multimodal AI SaaS solo. M.S. Computer Science, Georgia Tech.
 
-*Open to work — remote / Netherlands-based.*
+*Open to work — relocating to the Netherlands (Dutch Orientation Year visa, expected early 2027). Remote OK.*
 
 ---
 
-## About
+## What I do
 
-Full-stack + applied-AI engineer. I ship working products end to end — **React/TypeScript** interfaces, **Node.js/FastAPI** services, **PostgreSQL** data layers, and **LLM features**: agents, multimodal pipelines, RAG/GraphRAG retrieval, on-prem model serving.
+I build production AI systems end to end — React/TypeScript clients, FastAPI/Node/Spring Boot services, and the retrieval + inference layers in between. The through-line: **systems whose outputs can be checked** — cited answers, approval-gated changes, quantified risk, verified benchmarks.
 
-## Education
+## Currently — AinX · TechMentor (AI-native PLM)
 
-**Georgia Tech (Atlanta, GA) — M.S. Computer Science**
+- Backend modules for a PLM platform: drawings, documents, BOMs, MCAD/ECAD data on a revision model that keeps parts/CAD/drawings in sync and locks released data
+- Engineering change workflow (ECR→ECO→ECN): approval routing, BOM impact analysis, effectivity rules, ERP/MES release services with audit trail
+- **TechMentor AI layer**: hybrid sparse+dense retrieval (Qdrant), reciprocal rank fusion, cross-encoder reranking, knowledge-graph grounding (PostgreSQL + Apache AGE) — 20,000+ documents with citations to exact part + revision
+- **On-prem LLM serving**: SGLang + Gemma on customer GPUs — continuous batching, KV-cache tuning, guided decoding for cited output; engineering data never leaves the site
 
-## What I've built
+## Independent products
 
-| Project | Stack | What it does |
-|---|---|---|
-| **LivePair SaaS** | TypeScript · React · Node · Gemini/OpenAI APIs | Multi-tenant AI interview platform — real-time A/V analysis, per-user knowledge stores (RAG), sales-assist agents |
-| **Interview tooling suite** | Python · FastAPI · web UIs | Interview-prep automation, job-application pipelines, LinkedIn tooling |
-| **Engineering-data / PLM system** | Python · SQLite/PostgreSQL · STEP · BRL-CAD | Product-structure modeling, change workflows, geometry validation — validated on real CAD datasets |
-| **GraphRAG / LLM serving** | Python · LLM APIs · GPU | Retrieval + inference pipelines for domain workloads |
-| **Freight / logistics analytics** | Python · data pipelines | Maritime freight & supply-chain analysis tools |
+| Project | What it is |
+|---|---|
+| **[LivePair AI](https://livepairai.com)** — livepairai.com | Real-time multimodal assistant on Cloudflare Workers — watches the screen + hears the call, surfaces help live. Split-agent loop (Gemini video windows + OpenAI Agents), per-tenant RAG isolation, 12-tool MCP server, OpenAPI 3.1, prepaid billing + x402 payments. Cut agent API cost $12 → $8/session-hour |
+| **[FreightScaler / AtmosPath](https://github.com/signalgap9-del/peachtree-dispatch)** | Freight risk-intelligence SaaS — React/TS + AWS serverless (Lambda, DynamoDB, CloudFront), OR-Tools VRP, NWS/NOAA hazard data, multi-tenant quotas + idempotency, 24 ADRs, live demo deployed. [Architecture writeup](/writing/freightscaler.html) |
+| **[devin-harness](https://github.com/signalgap9-del/devin-harness)** | Open-source operating system for agentic repos — lifecycle hooks, deterministic exec/file guards, action ledger, typed LLM review gates, dispatch contract, skills library. MIT |
+
+## Background
+
+- **Georgia Tech** — M.S. Computer Science, AI specialization (GPA 3.22). ML, Software Architecture, Distributed Systems coursework
+- **E-commerce AI** (contract) — LangChain/OpenAI chatbot for 5,000 members; verification layer cut unsupported claims 25% → 10%
+- **Namu ICT** — Samsung 5G cloud network platform; diagnosed peak-hour dashboard slowdowns for Verizon/Telus/Orange
+- **Open source** — 2 merged PRs to [NVIDIA/NVSentinel](https://github.com/NVIDIA/NVSentinel) (GPU fleet health monitoring)
 
 ## Stack
 
-**Languages:** Python · TypeScript · JavaScript · SQL
-**Frontend:** React · modern web UI
-**Backend:** Node.js · FastAPI · REST APIs · WebSockets
-**AI/ML:** LLM APIs (Gemini, OpenAI) · agents · multimodal pipelines · RAG/GraphRAG · embeddings
-**Data:** PostgreSQL · SQLite · graph projections · document/vector stores
-**Infra:** Docker · Linux · CI/CD · on-prem GPU serving
+**Languages:** Python · TypeScript · JavaScript · Java · C/C++ · SQL · Bash
+**Backend:** FastAPI · Spring Boot · gRPC · Temporal · REST · PostgreSQL · Redis · Kafka · Celery/Taskiq · Elasticsearch · Playwright
+**Frontend:** React · TanStack Query · Zustand · Tailwind · React Hook Form/Zod · WebSocket/SSE
+**AI/LLM:** RAG/GraphRAG · hybrid retrieval (dense+sparse, reranking) · Qdrant · pgvector · knowledge graphs (Apache AGE) · agent tool-calling (LangChain, MCP) · OpenAI/Gemini APIs · LiteLLM · Langfuse · PyTorch · SGLang (local serving) · Ragas evals
+**Cloud/Ops:** AWS (Lambda, DynamoDB, CloudFront) · GCP · Cloudflare Workers · Docker · Kubernetes · Terraform · GitHub Actions · OpenTelemetry · Prometheus · Sentry · on-prem GPU deployment
 
-## How I work
+## Writing
 
-- Ship working software, not demos — every claim in my docs comes from an executed run
-- Read real implementations before building (open-source PLM, STEP parsers, agent frameworks)
-- Care about the boring parts: data modeling, migrations, auth, tenancy, observability
+- [Running autonomous AI agents safely — devin-harness teardown](/writing/agents.html)
+- [Building a real-time freight risk SaaS](/writing/freightscaler.html)
 
 ## Links
 
-- LinkedIn · Email — see profile sidebar
+- **LinkedIn:** [linkedin.com/in/yunseop-i-207a7215a](https://www.linkedin.com/in/yunseop-i-207a7215a/)
+- **Site:** [signalgap9-del.github.io](https://signalgap9-del.github.io)
+- **Email:** tristayunsub@gmail.com
