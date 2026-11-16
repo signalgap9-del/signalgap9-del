@@ -8,7 +8,8 @@ I build backend services, frontend interfaces, and the AI/ML layers in between �
 
 **Previously:** contract AI products for an e-commerce company; solo founder of a live SaaS handling billing, payments, and real-time multimodal sessions. Merged pull requests in NVIDIA's open-source NVSentinel.
 
-M.S. Computer Science, Georgia Tech — expected early 2027. B.S. Mechanical Engineering.
+M.S. Computer Science, Georgia Tech — expected early 2027. 
+B.S. Mechanical Engineering.
 
 Open to contract and freelance work — EU/US.
 
