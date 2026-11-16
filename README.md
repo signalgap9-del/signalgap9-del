@@ -3,13 +3,13 @@
 **Full-Stack Software Engineer — AI Engineering**
 M.S. Computer Science, Georgia Tech (Atlanta, GA) — AI specialization.
 
-*Open to work — relocating to the Netherlands (Dutch Orientation Year visa, expected early 2027). Remote OK.*
+*Open to relocate — EU / US. Remote OK.*
 
 ---
 
 ## About
 
-Software engineer building production systems since 2023 — backend services, frontend interfaces, and applied-AI systems across industry and independent products. Current focus: **AI agents, retrieval (RAG/GraphRAG), multimodal pipelines, and LLM infrastructure** — including on-prem model serving where data can't leave the building.
+Full-stack software engineer with 3 years building production systems — backend services, frontend interfaces, and applied-AI products across industry and independent work. Current focus: **AI agents, retrieval (RAG/GraphRAG), multimodal pipelines, and LLM infrastructure** — including on-prem model serving where data can't leave the building.
 
 I care about systems whose outputs can be checked: cited answers, verified retrieval, evals, honest benchmarks — not demos.
 
