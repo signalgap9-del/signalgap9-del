@@ -24,6 +24,7 @@ I build production AI systems end to end — React/TypeScript clients, FastAPI/N
 |---|---|
 | **[LivePair AI](https://livepairai.com)** — livepairai.com | Real-time multimodal assistant on Cloudflare Workers — watches the screen + hears the call, surfaces help live. Split-agent loop (Gemini video windows + OpenAI Agents), per-tenant RAG isolation, 12-tool MCP server, OpenAPI 3.1, prepaid billing + x402 payments. Cut agent API cost $12 → $8/session-hour |
 | **[FreightScaler / AtmosPath](https://github.com/signalgap9-del/peachtree-dispatch)** | Freight risk-intelligence SaaS — React/TS + AWS serverless (Lambda, DynamoDB, CloudFront), OR-Tools VRP, NWS/NOAA hazard data, multi-tenant quotas + idempotency, 24 ADRs, live demo deployed. [Architecture writeup](/writing/freightscaler.html) |
+| **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** | Knowledge-graph-grounded retrieval experiments — hybrid BM25 + graph-expansion GraphRAG in pure Python stdlib, runnable demo with tests |
 | **[devin-harness](https://github.com/signalgap9-del/devin-harness)** | Open-source operating system for agentic repos — lifecycle hooks, deterministic exec/file guards, action ledger, typed LLM review gates, dispatch contract, skills library. MIT |
 
 ## Background
