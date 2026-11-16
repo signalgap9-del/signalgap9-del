@@ -22,6 +22,7 @@ Open to contract and freelance work — EU/US.
 
 ## Writing
 
+- [Running LLM inference on customer GPUs — on-prem serving field notes](https://signalgap9-del.github.io/writing/onprem-llm.html)
 - [Running autonomous AI agents safely — devin-harness teardown](https://signalgap9-del.github.io/writing/agents.html)
 - [Building a real-time freight risk intelligence SaaS](https://signalgap9-del.github.io/writing/freightscaler.html)
 - [Per-tenant RAG isolation in multi-tenant AI SaaS](https://signalgap9-del.github.io/writing/tenant-rag.html)
