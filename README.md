@@ -16,7 +16,7 @@ Open to relocation — EU/US (visa sponsorship welcome). Also open to contract a
 
 ## Selected work
 
-- **[LivePair AI](https://livepairai.com)** — real-time multimodal AI copilot, solo-built and operated in production: split-agent loop (video model + tool-driving agent session), edge runtime on Cloudflare Workers/Durable Objects, multi-provider billing, per-tenant RAG, 12-tool MCP server.
+- **Independent AI startup (stealth)** — real-time multimodal AI copilot, solo-built and operated in production: split-agent loop (video model + tool-driving agent session), edge runtime on Cloudflare Workers/Durable Objects, multi-provider billing, per-tenant RAG, 12-tool MCP server.
 - **[devin-harness](https://github.com/signalgap9-del/devin-harness)** — open-source harness for running autonomous AI agents safely (MIT): hook lifecycle, deterministic exec/file guards, typed review gates, action ledger.
 - **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** — GraphRAG pipeline in pure Python stdlib: BM25 + knowledge-graph expansion over SQLite, 8 tests, zero dependencies. Runnable demo.
 - **[FreightScaler](https://github.com/signalgap9-del/peachtree-dispatch)** — multi-tenant freight risk intelligence SaaS: React/TypeScript frontend, AWS serverless backend (Lambda, DynamoDB, Kafka/CDC), OR-Tools route optimization, 24 ADRs.
