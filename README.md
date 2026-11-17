@@ -23,6 +23,7 @@ Open to relocation across Europe (EU/UK) and the US.
 
 ## Writing
 
+- [Architecting a real-time multimodal agent SaaS — Durable Objects, AI Gateway, micro-USD ledgers & OpenMeter](https://signalgap9-del.github.io/writing/multimodal-agent-architecture.html)
 - [GraphRAG for e-commerce — why product catalogs break naive RAG](https://signalgap9-del.github.io/writing/graphrag-ecommerce.html)
 - [On-prem AI is a services business — opinion](https://signalgap9-del.github.io/writing/onprem-ai-services.html)
 - [Running LLM inference on customer GPUs — on-prem serving field notes](https://signalgap9-del.github.io/writing/onprem-llm.html)
