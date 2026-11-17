@@ -10,7 +10,7 @@ I build backend services, frontend interfaces, and the AI/ML layers in between �
 
 M.S. Computer Science (AI), Georgia Tech — in progress (expected early 2027). B.S. Mechanical Engineering.
 
-Open to relocation across Europe (EU/UK) and the US.
+Open to work & relocation — Europe (EU/UK) and the US. Zoekjaar visa eligible (Netherlands: no sponsorship required, HSM-eligible).
 
 ---
 
