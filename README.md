@@ -1,22 +1,22 @@
-<|open|>argument key="content" type="string"<|sep|># Yunseop Im
+# Yunseop Im
 
-**Software Engineer — backend systems, distributed systems & applied AI**
+**Software Engineer — full-stack, backend systems, distributed systems & applied AI**
 
 I build backend services, frontend interfaces, and the AI/ML layers in between — in production, not demos.
 
 **Currently:** backend + AI layer of a PLM platform for manufacturing — engineering data models, retrieval over large document corpora, and LLM serving on customer GPUs with no external API dependency.
 
-**Previously:** contract AI products for an e-commerce company; solo founder of a live SaaS handling billing, payments, and real-time multimodal sessions. Merged pull requests in NVIDIA's open-source NVSentinel.
+**Previously:** solo-built and operate a live real-time multimodal AI SaaS; contract AI engineering for an e-commerce company (5,000+ users); cloud platform tooling for 5G network operations. Merged pull requests in NVIDIA's open-source [NVSentinel](https://github.com/NVIDIA/NVSentinel/pulls?q=is%3Apr+author%3Asignalgap9-del).
 
-M.S. Computer Science, Georgia Tech — expected early 2027. B.S. Mechanical Engineering.
+M.S. Computer Science (AI), Georgia Tech — in progress (expected early 2027). B.S. Mechanical Engineering.
 
-Open to relocation — EU/US (visa sponsorship welcome). Also open to contract and freelance work — EU/US.
+Open to relocation across Europe (EU/UK) and the US.
 
 ---
 
 ## Selected work
 
-- **Independent AI startup (stealth)** — real-time multimodal AI copilot, solo-built and operated in production: split-agent loop (video model + tool-driving agent session), edge runtime on Cloudflare Workers/Durable Objects, multi-provider billing, per-tenant RAG, 12-tool MCP server.
+- **[Independent AI startup (stealth)](https://signalgap9-del.github.io/projects/ai-copilot-saas.html)** — real-time multimodal AI copilot, solo-built and operated in production: split-agent loop (video model + tool-driving agent session with persistent cognition state), Cloudflare Workers/Durable Objects edge runtime, multi-provider LLM routing via AI Gateway, per-tenant RAG, OpenMeter + BigQuery usage pipeline, public MCP server.
 - **[devin-harness](https://github.com/signalgap9-del/devin-harness)** — open-source harness for running autonomous AI agents safely (MIT): hook lifecycle, deterministic exec/file guards, typed review gates, action ledger.
 - **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** — GraphRAG pipeline in pure Python stdlib: BM25 + knowledge-graph expansion over SQLite, 8 tests, zero dependencies. Runnable demo.
 - **[FreightScaler](https://github.com/signalgap9-del/peachtree-dispatch)** — multi-tenant freight risk intelligence SaaS: React/TypeScript frontend, AWS serverless backend (Lambda, DynamoDB, Kafka/CDC), OR-Tools route optimization, 24 ADRs.
