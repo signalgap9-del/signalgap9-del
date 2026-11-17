@@ -1,23 +1,24 @@
-# Yunseop Im
+<|open|>argument key="content" type="string"<|sep|># Yunseop Im
 
-**Software Engineer — full-stack systems & applied AI**
+**Software Engineer — backend systems, distributed systems & applied AI**
 
 I build backend services, frontend interfaces, and the AI/ML layers in between — in production, not demos.
 
-**Currently:** backend + AI layer of a PLM platform for manufacturing — engineering data models, retrieval over technical documents, and LLM serving on customer GPUs with no external API dependency.
+**Currently:** backend + AI layer of a PLM platform for manufacturing — engineering data models, retrieval over large document corpora, and LLM serving on customer GPUs with no external API dependency.
 
 **Previously:** contract AI products for an e-commerce company; solo founder of a live SaaS handling billing, payments, and real-time multimodal sessions. Merged pull requests in NVIDIA's open-source NVSentinel.
 
-M.S. Computer Science, Georgia Tech — expected early 2027. 
+M.S. Computer Science, Georgia Tech — expected early 2027. B.S. Mechanical Engineering.
 
-Open to contract and freelance work — EU/US.
+Open to relocation — EU/US (visa sponsorship welcome). Also open to contract and freelance work — EU/US.
 
 ---
 
 ## Selected work
 
-- **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** — GraphRAG pipeline in pure Python stdlib: BM25 + knowledge-graph expansion over SQLite, 8 tests, zero dependencies. Runnable demo.
+- **[LivePair AI](https://livepairai.com)** — real-time multimodal AI copilot, solo-built and operated in production: split-agent loop (video model + tool-driving agent session), edge runtime on Cloudflare Workers/Durable Objects, multi-provider billing, per-tenant RAG, 12-tool MCP server.
 - **[devin-harness](https://github.com/signalgap9-del/devin-harness)** — open-source harness for running autonomous AI agents safely (MIT): hook lifecycle, deterministic exec/file guards, typed review gates, action ledger.
+- **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** — GraphRAG pipeline in pure Python stdlib: BM25 + knowledge-graph expansion over SQLite, 8 tests, zero dependencies. Runnable demo.
 - **[FreightScaler](https://github.com/signalgap9-del/peachtree-dispatch)** — multi-tenant freight risk intelligence SaaS: React/TypeScript frontend, AWS serverless backend (Lambda, DynamoDB, Kafka/CDC), OR-Tools route optimization, 24 ADRs.
 
 ## Writing
@@ -32,7 +33,7 @@ Open to contract and freelance work — EU/US.
 
 ## Stack
 
-Python · TypeScript · Java · React · FastAPI · Node.js · Spring Boot · PostgreSQL · Qdrant · Docker · Kubernetes · AWS · GCP · Cloudflare
+Python · TypeScript · Java · React · FastAPI · Node.js · Spring Boot · PostgreSQL · Redis · Kafka · gRPC · Qdrant · Docker · Kubernetes · AWS · GCP · Cloudflare · vLLM · Langfuse
 
 ## Links
 
