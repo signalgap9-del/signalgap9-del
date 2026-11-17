@@ -17,12 +17,15 @@ M.S. Computer Science (AI), Georgia Tech — in progress (expected early 2027). 
 ## Selected work
 
 - **[Independent AI startup (stealth)](https://signalgap9-del.github.io/projects/ai-copilot-saas.html)** — real-time multimodal AI copilot, solo-built and operated in production: split-agent loop (video model + tool-driving agent session with persistent cognition state), Cloudflare Workers/Durable Objects edge runtime, multi-provider LLM routing via AI Gateway, per-tenant RAG, OpenMeter + BigQuery usage pipeline, public MCP server.
-- **[devin-harness](https://github.com/signalgap9-del/devin-harness)** — open-source harness for running autonomous AI agents safely (MIT): hook lifecycle, deterministic exec/file guards, typed review gates, action ledger.
+- **[devin-harness](https://github.com/signalgap9-del/devin-harness)** — open-source harness for running autonomous AI agents safely (MIT): hook lifecycle, deterministic `<50ms` exec/file guards, typed review gates, action ledger, 30-doc engineering corpus.
+- **[production-starter](https://github.com/signalgap9-del/production-starter)** — supply-chain hardened GitHub service template (MIT): SHA-pinned Actions, SLSA build provenance, OpenSSF Scorecard, CodeQL, TruffleHog secret scanning, Playwright smoke E2E, UK GDS ops standards, ADRs.
 - **[graphrag-lab](https://github.com/signalgap9-del/graphrag-lab)** — GraphRAG pipeline in pure Python stdlib: BM25 + knowledge-graph expansion over SQLite, 8 tests, zero dependencies. Runnable demo.
 - **[FreightScaler](https://github.com/signalgap9-del/peachtree-dispatch)** — multi-tenant freight risk intelligence SaaS: React/TypeScript frontend, AWS serverless backend (Lambda, DynamoDB, Kafka/CDC), OR-Tools route optimization, 24 ADRs.
 
 ## Writing
 
+- [PostgreSQL internals for multi-tenant backends — MVCC, SSI (40001), SKIP LOCKED, EXPLAIN BUFFERS & RLS](https://signalgap9-del.github.io/writing/postgres-internals.html)
+- [Production AI agent architecture — open-source cores, pass^k evals (Inspect AI) & failure modes](https://signalgap9-del.github.io/writing/agent-architecture-evals.html)
 - [Architecting a real-time multimodal agent SaaS — Durable Objects, AI Gateway, micro-USD ledgers & OpenMeter](https://signalgap9-del.github.io/writing/multimodal-agent-architecture.html)
 - [GraphRAG for e-commerce — why product catalogs break naive RAG](https://signalgap9-del.github.io/writing/graphrag-ecommerce.html)
 - [On-prem AI is a services business — opinion](https://signalgap9-del.github.io/writing/onprem-ai-services.html)
